@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.header-wrapper {
+   background-color: #69a5ef;
+   color: #fff;
+   height: 190px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 60px 100px;
+   background-image: url(asse) ;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.header-styles {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1em;
+}
+
+.center-column {
+   display: grid;
+   grid-template-columns: 1fr;
+  row-gap: 42px;
+   width:500px;
+}
+
+.center-column .logo {
+   display: flex;
+   justify-content: center;
+}
+
+.logo img {
+   width: 230px;
+   border-radius: 70%;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.link-wrapper a {
+   font-family: 'Ubuntu Condensed', sans-serif;
+   color: #fff;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+.link-wrapper a:hover {
+   color: #bcca99;
+   letter-spacing: 2px;
+   
+}
+
+.right-column {
+   display: flex;
+   align-items: center;
+}
+
+.icon {
+  font-size: 2em;
+}
+
+.icon-mr {
+  margin-right: 15px;
+}
+
+.icon-ml {
+   margin-left: 15px;
+}
+
+.homepage {
+   background-image: url(assets/inspirational-family-quote.jpg);
+   padding: 10px;
+   height: 500px;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+}
+
+.top-heading {
+   background-color: #7eb8e4;
+   color: #0a1f47;
+width: 220px;
+border-radius: 2px;
+padding: 1px 25px;
+position:fixed;
+z-index:100;
+background-image: url(assets/little\ blue\ hearts.png);
+}
+
+.bottom-heading {
+   background-color: #87cbe4;
+   color: #347fb8;
+   padding: 1px 15px;
+   margin-top: 15px;
+   width: 99px;
+   border-radius: 2px;
+}
+
+.features-section {
+   height: 300px;
+   background-image: url(assets/heart.jpg);
+   background-color: #5e98c9;
+   border-top: 10px solid #fff;
+   color: #0d2f76;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Ubuntu Condensed', sans-serif;
+   box-shadow: inset 0px -25px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.column:hover {
+    border-bottom: 5px solid #fff;
+}
+
+.column :nth-child(1) {
+  font-size: 3em;
+}
+
+.column :nth-child(2) {
+   font-size: 1.5em;
+   font-weight: 900;
+   height: 50px;
+}
+
+.column :nth-child(2):hover {
+    
+}
+
+.column :nth-child(3) {
+    letter-spacing: 2px;
+}
