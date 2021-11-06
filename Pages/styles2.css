@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homepage {
-   background-image: url(assets/kayak_adventures.jpg);
+   background-image: url(../assets/linedpaper.png);
    padding: 100px;
    height: 300px;
    background-attachment: fixed;
@@ -104,7 +104,7 @@ padding: 1px 20px;
    background-color: #5e98c9;
    color: #0d2f76;
    padding: 1px 20px;
-   margin-top: 15px;
+   margin-top: 5px;
    width: 107px;
    border-radius: 2px;
 }
@@ -112,9 +112,9 @@ padding: 1px 20px;
 .features-section {
    height: 400px;
    background-image: url(assets/kayak-multiple.png);
-   background-color: #6b9b5d;
+   background-color: #5e98c9;
    border-top: 10px solid #fff;
-   color: #fff;
+   color: #0d2f76;
    display: flex;
    justify-content: center;
    align-items: center;
