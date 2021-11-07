@@ -130,19 +130,22 @@ padding: 1px 20px;
 
 .column {
     padding: 20px;
-    margin: 42px;
+    margin: 20px;
     text-align: center;
     border-bottom: 5px solid transparent;
-    border-radius: 10px;
+    border-radius: 30%;
     transition: 1s;
 }
 
 .column:hover {
     border-bottom: 5px solid #fff;
+
 }
 
 .column :nth-child(1) {
   font-size: 3em;
+  border-radius: 60%;
+  border-width: 1em;
 }
 
 .column :nth-child(2) {
